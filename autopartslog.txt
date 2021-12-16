@@ -3560,3 +3560,10 @@ java.sql.SQLException: Connection is closed
 2021-12-16 05:05:51.834 DEBUG 16884 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
 2021-12-16 05:05:51.894 DEBUG 16884 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json, text/javascript, */*;q=0.01] and supported [application/json;charset=UTF-8]
 2021-12-16 05:05:51.895 DEBUG 16884 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.genplug.genplug.classes.Question@661fd119, com.genplug.genplug.classes.Question@111f0802, com.g (truncated)...]
+2021-12-16 05:05:51.897 DEBUG 16884 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-12-16 05:05:52.467 DEBUG 16884 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json, text/javascript, */*;q=0.01] and supported [application/json;charset=UTF-8]
+2021-12-16 05:05:52.467 DEBUG 16884 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.genplug.genplug.classes.Blog@2699fa57, com.genplug.genplug.classes.Blog@57929727, com.genplug.g (truncated)...]
+2021-12-16 05:05:52.469 DEBUG 16884 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-12-16 09:47:25.250  INFO 16884 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-16 09:47:25.505  INFO 16884 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-16 09:47:25.549  INFO 16884 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
