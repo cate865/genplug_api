@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin("http://127.0.0.1:5500")
+@CrossOrigin(origins = "*")
 public class ProfessionalController {
     @Autowired
     ProfessionalService professionalService;
